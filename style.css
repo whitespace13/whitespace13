@@ -1,0 +1,88 @@
+h1{
+    font-family: 'Righteous', cursive;;
+}
+li{
+    font-family: 'Jua', sans-serif;
+    font-size: 21px;
+    padding: 5px;
+    color: rgb(186, 219, 247);
+    text-decoration: none;
+}
+
+
+.container{
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 30px;
+    grid-gap: 1rem;
+    max-width: 1000px;
+    
+
+ }
+  
+
+.essay_main{
+ 
+    margin: 0 30px 0;
+    max-width: 1000px;
+}
+
+.image-main{
+    margin: 0 50px 0;
+    padding: 20px;
+    max-width: 1000px;
+    justify-items:center;
+    
+}
+
+
+ul{
+
+    font-family: 'Jua', sans-serif;
+list-style: none;
+margin: 5px;
+padding: 0;
+font-size: 17px;
+height: 200%;
+width: 100px;
+text-decoration: none;
+max-height: 1000px;
+float: left;
+
+
+}
+
+a{
+    text-decoration: none;
+    color: rgb(2, 3, 3);
+  
+   
+}
+
+
+
+.grid{
+    
+    display: grid;
+    grid-template-columns: 150px 1fr;
+}
+
+a:hover{
+color: rgb(170, 238, 218);
+
+}
+
+.setting1{
+   list-style-type: none;
+    color: rgb(186, 219, 247);
+    text-decoration: none
+
+  
+}
+
+h2{
+    color: rgb(3, 3, 3);
+text-decoration: none;
+}
+
