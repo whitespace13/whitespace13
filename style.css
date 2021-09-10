@@ -14,7 +14,7 @@ li{
     align-items: center;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    padding: 30px;
+   padding-top: 20px;
     grid-gap: 1rem;
     max-width: 1000px;
     
@@ -86,3 +86,35 @@ h2{
 text-decoration: none;
 }
 
+@media (max-width : 750px) {
+    
+.grid{
+    grid-template-columns: none;
+}
+.container{
+    grid-template-columns: none;
+    grid-gap: none;
+    max-width: none;
+    margin: auto;
+    padding: none;
+}
+
+ li{
+    display: inline-block;
+  
+}
+
+.essay_main{
+ border-top: black 1px solid;;
+    margin: 5px;
+    padding: 10px;
+    max-width: 1000px;
+}
+.image-main{
+    grid-template-columns: none;
+    grid-gap: none;
+    max-width: none;
+    margin: auto;
+    padding: none;
+}
+}
